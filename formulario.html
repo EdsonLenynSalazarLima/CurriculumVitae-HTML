@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <div>
+      <!-- se inserto una cabecera al formulario-->
+        <header>
+            <h1>FORMULARIO DE REGISTRO</h1>
+        </header>
+
+    </div>
+    <div>
+      <!--ingreso de datos de tipo texto-->
+        <form class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+              <label class="visually-hidden" for="name">Nombres</label>
+              <div class="input-group">
+                
+                <input type="text" class="form-control" id="name" placeholder="nombres">
+              </div>
+            </div>
+            <div class="col-12">
+                <label class="visually-hidden" for="apellido">Apellios</label>
+                <div class="input-group">
+                  
+                  <input type="text" class="form-control" id="apellido" placeholder="Apellios">
+                </div>
+              </div>
+              <!--un input tipo radio para selecionar uno de los dos datos-->
+              <div class="form-check">
+                <label class="form-check-label">GENERO</label><br>
+                <input class="form-check-input" type="radio" name="genero" id="genero1">
+                <label class="form-check-label" for="genero1">
+                  Femenino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero" id="genero2" checked>
+                <label class="form-check-label" for="genero2">
+                  Masculino
+                </label>
+              </div>
+            
+          <!---un selector de varias opciones-->
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormSelectPref">lenguaje de programacion</label>
+              <select class="form-select" id="inlineFormSelectPref">
+                <option selected>seleccione...</option>
+                <option value="1">Html</option>
+                <option value="2"Php</option>
+                <option value="3">Java</option>
+              </select>
+            </div>
+            <!--un ingreso de datos de tipo date-->
+            <div class="col-12">
+                <label class="visually-hidden" for="f-nacimiento">Fecha de nacimiento</label>
+                <div class="input-group">
+                  
+                  <input type="date" class="form-control" id="f-nacimiento" placeholder="fecha de nacimiento">
+                </div>
+              </div>
+              <!--un ingreso de datos de tipo numerico-->
+              <div class="col-12">
+                <label class="visually-hidden" for="telefono">Telefono</label>
+                <div class="input-group">
+                  
+                  <input type="number" class="form-control" id="telefono" placeholder="telefono">
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="visually-hidden" for="edad">Edad</label>
+                <div class="input-group">
+                  
+                  <input type="number" class="form-control" id="edad" placeholder="edad">
+                </div>
+              </div>
+              <!--un ingreso de datos de tipo email para correos electronicos-->
+              <div class="col-12">
+                <label class="visually-hidden" for="correo">Correo</label>
+                <div class="input-group">
+                  
+                  <input type="email" class="form-control" id="correo" placeholder="Correo">
+                </div>
+              </div>
+              <!--un ingreso de datos para contraseña-->
+              <div class="col-12">
+                <label class="visually-hidden" for="contraseña">Contraseña</label>
+                <div class="input-group">
+                  
+                  <input type="password" class="form-control" id="contraseña" placeholder="contraseña">
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="visually-hidden" for="cod-matricula">Cod-matricula</label>
+                <div class="input-group">
+                  
+                  <input type="number" class="form-control" id="cod-matricula" placeholder="cod-matricula">
+                </div>
+              </div>
+              <!--un ingreso de datos de tipo file para selecionar archivos-->
+              <div class="col-12">
+                <label class="visually-hidden" for="foto">Foto</label>
+                <div class="input-group">
+                  
+                  <input type="file" class="form-control" id="foto" placeholder="foto">
+                </div>
+              </div>
+          
+            
+          
+            <div class="col-12">
+
+              <button type="submit" class="btn btn-primary " ><a href="mensaje.html">enviar</a></button>
+              
+              <button type="reset">Restablecer</button>
+            </div>
+          </form>
+        
+    </div>
+    
+</body>
+</html>

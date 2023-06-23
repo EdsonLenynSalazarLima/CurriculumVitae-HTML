@@ -1,0 +1,116 @@
+/*
+.pagina{
+    background-color: rgb(109, 106, 102) ;
+    width: 2481px; margin: 0 auto;
+    height: 3508px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+header{
+    background-color: rgb(39, 39, 34);
+    height: 808px;
+    width: 2481px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+.titulo-grande{
+    height: 608px;
+    width: 2481px;
+    
+   
+   
+
+}
+.iniciales{
+    
+    color: rgb(157, 138, 0);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 150px;
+    
+}
+.nombre{
+    font-weight: 700;
+    color: white;
+    font-size: 110px;
+    text-align: center;
+}
+.profecion{
+    color: rgb(157, 138, 0);
+    text-align: center;
+    font-size: 30px;
+    
+}
+.contacto{
+    height: 200px;
+    width: 2481px;
+    float: left;
+    flex: auto;
+    
+    
+}
+.ubicacion{
+    height: 200px;
+    width: 827px;
+    
+    float: left;
+   
+   
+    
+}
+.telefono{
+    height: 200px;
+    width: 823px;
+    float: left;
+    border-left: rgb(157, 138, 0) 2px solid;
+    border-right: rgb(157, 138, 0) 2px solid;
+    
+    
+}
+.correo{
+    height: 200px;
+    width: 827px;
+    float: left;
+    
+}
+
+
+.contacto-text{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    
+    
+}
+.cuerpo{
+    height: 2500px;
+    width:  2481px;
+}
+aside{
+    width: 827px;
+    height: 2500px;
+    float: left;
+    background-color: rgb(196, 196, 196);
+
+}
+.imagen{
+    height: 500px;
+    width: 827px;
+    
+    
+
+}
+.foto-perfil{
+    margin-left: 230px;
+    margin-top: 80px;
+    border-radius: 50%;
+
+}
+section{
+    width: 1654px;
+    height: 2500px;
+    float: left;
+    background-color: rgb(235, 235, 235);
+}
+*/
